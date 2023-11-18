@@ -14,6 +14,10 @@
  public에는 링크드 리스트의 기능들
  노드 추가, 크기 리턴 함수. 데이터 출력,
  데이터 값 변경, 노드 삭제, 연결된 노드가 없는지 확인.
+
+ 현재 리스트가 비어있는지, 들어온 인덱스의 값이
+ 잘못 되었는지 확인하는 부분은 코드가 중복 된다.
+ bool타입 멤버 함수로 만들어서 재사용하는게 더 나아보임.
 */
 
 //********** Node 클래스의 선언 **********
@@ -41,23 +45,13 @@ private:
 public:
 	List();
 	~List();
-	//bool AddDataFirst(Node NewNode, int iData);		//데이터 추가 성공시 true, 실패시 false
-	bool AddData(Node* NewNode, int iPosition);
-	bool AddDataLast(Node* NewNode, int iData);
-	bool RemoveData(int iPosition);
+	bool AddDataFirst(Node* NewNode, const int& iData);		//데이터 추가 성공시 true, 실패시 false
+	bool AddDataMiddle (Node* NewNode, const int& iPosition, const int& iData);
+	bool AddDataLast(Node* NewNode, const int& iData);
+	bool RemoveData(const int& iPosition);
 	int GetLenth();
-	int GetData(int iPosition);
+	int GetData(const int& iPosition);
 	void DisplayAll();
 // 외의 데이터 변경 함수, 리스트가 비어있는지 확인 등은 생략
 };
 //***************************************
-
-
-//********** 리스트와 노드 객체를 만드는 정적 멤버 함수
-class Create
-{
-public:
-	static List* CreateList();
-	static Node* CreateNode(int iData);
-};
-//*********************************************

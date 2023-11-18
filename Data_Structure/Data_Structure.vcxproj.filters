@@ -33,6 +33,9 @@
     <ClCompile Include="LinkedList.cpp">
       <Filter>소스 파일\List</Filter>
     </ClCompile>
+    <ClCompile Include="LinkedList2.cpp">
+      <Filter>소스 파일\List</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="List Summery.txt">
@@ -44,6 +47,9 @@
       <Filter>헤더 파일\List</Filter>
     </ClInclude>
     <ClInclude Include="LinkedList.h">
+      <Filter>헤더 파일\List</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList2.h">
       <Filter>헤더 파일\List</Filter>
     </ClInclude>
   </ItemGroup>
