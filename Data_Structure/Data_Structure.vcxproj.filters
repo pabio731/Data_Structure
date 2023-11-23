@@ -19,6 +19,12 @@
     <Filter Include="헤더 파일\List">
       <UniqueIdentifier>{9a12e254-e59b-4d92-974c-f8e9bfacc4c6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Stack">
+      <UniqueIdentifier>{a0461b3f-6311-4d8f-b92f-be68980208ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Stack">
+      <UniqueIdentifier>{ef0dce61-d83b-4e99-ac85-7e5639c5252e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Data_Structure.txt">
@@ -36,6 +42,15 @@
     <ClCompile Include="LinkedList2.cpp">
       <Filter>소스 파일\List</Filter>
     </ClCompile>
+    <ClCompile Include="Stack_Main.cpp">
+      <Filter>소스 파일\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayStack.cpp">
+      <Filter>소스 파일\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="L.ListStack.cpp">
+      <Filter>소스 파일\Stack</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="List Summery.txt">
@@ -52,5 +67,16 @@
     <ClInclude Include="LinkedList2.h">
       <Filter>헤더 파일\List</Filter>
     </ClInclude>
+    <ClInclude Include="ArrayStack.h">
+      <Filter>헤더 파일\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="L.ListStack.h">
+      <Filter>헤더 파일\Stack</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Stack Summery.txt">
+      <Filter>소스 파일\Stack</Filter>
+    </Text>
   </ItemGroup>
 </Project>
