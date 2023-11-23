@@ -15,7 +15,7 @@
 - Linked List
 - Linked List2 (이중 연결 링크드리스트)
 
-##Stack
+## Stack
 
 - Array Stack
 - Stack with Linked List
