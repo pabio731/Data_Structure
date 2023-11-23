@@ -24,6 +24,9 @@
     <ClCompile Include="Stack_Main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="CheckBracket.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Stack Summery.txt">
@@ -35,6 +38,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="L.ListStack.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBracket.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
