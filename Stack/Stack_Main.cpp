@@ -144,12 +144,12 @@
 
 #pragma region Check Bracket Balance
 #include"CheckBracket.h"
-
+#include<string>std::getline
 int main()
 {
 	std::string Src;
 	std::cout << "Please Input String >>";
-	std::cin >> Src;
+	getline(std::cin, Src);
 
 	CheckBracket CheckB(Src);
 	if (CheckB.Check())

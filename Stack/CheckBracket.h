@@ -20,3 +20,5 @@ public:
 	~CheckBracket();
 	bool Check();
 };
+
+//(A* B) / C - ((D + E) & (F - G)))
