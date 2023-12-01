@@ -27,3 +27,11 @@
 
 - Circular Queue
 - Queue with Linked List
+- Deque with doubly Linked List
+- Bank Simulation
+
+## Recursion
+
+- Factorial
+- Fibonacci Sequence
+- Tower of Hanoi

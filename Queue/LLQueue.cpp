@@ -1,8 +1,9 @@
+#include"pch.h"
 #include"LLQueue.h"
 
 LLQUE* CreateArrQueue()
 {
-	LLQUE* RetVal = new LLQUE;
+	LLQUE* RetVal = new(std::nothrow) LLQUE;
 	if (nullptr == RetVal)
 	{
 		cout << "Fail To Memort Allocation For Queue" << endl;

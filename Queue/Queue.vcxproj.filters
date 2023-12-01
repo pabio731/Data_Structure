@@ -5,35 +5,83 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="헤더 파일">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="리소스 파일">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\Queue">
+      <UniqueIdentifier>{e46ad75d-e71b-49e5-bf2c-4b6e41c422db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Deque">
+      <UniqueIdentifier>{e3ac0f92-3c2b-435b-9539-26cfe97ac9d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Simulation">
+      <UniqueIdentifier>{9d615c24-2e0e-442d-ab56-a3d1fec26408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Simulation\1. Header">
+      <UniqueIdentifier>{f145d097-6c0b-4f88-aad0-41659995e81d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Simulation\2. Src">
+      <UniqueIdentifier>{4f22919d-575e-432a-b5ac-97d12b22b2ab}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Queue_Summery.txt">
+    <ClCompile Include="Queue,Deque_Summery.txt">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="ArrayQueue.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="QueueMain.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Queue</Filter>
     </ClCompile>
     <ClCompile Include="LLQueue.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="QueueMain.cpp">
+      <Filter>소스 파일\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="DL_Deque.cpp">
+      <Filter>소스 파일\Deque</Filter>
+    </ClCompile>
+    <ClCompile Include="Deque_main.cpp">
+      <Filter>소스 파일\Deque</Filter>
+    </ClCompile>
+    <ClCompile Include="CCustomer.cpp">
+      <Filter>소스 파일\Simulation\2. Src</Filter>
+    </ClCompile>
+    <ClCompile Include="CBank.cpp">
+      <Filter>소스 파일\Simulation\2. Src</Filter>
+    </ClCompile>
+    <ClCompile Include="CNode.cpp">
+      <Filter>소스 파일\Simulation\2. Src</Filter>
+    </ClCompile>
+    <ClCompile Include="CQueue.cpp">
+      <Filter>소스 파일\Simulation\2. Src</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayQueue.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>소스 파일\Queue</Filter>
     </ClInclude>
     <ClInclude Include="LLQueue.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>소스 파일\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="DL_Deque.h">
+      <Filter>소스 파일\Deque</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="CBank.h">
+      <Filter>소스 파일\Simulation\1. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CCustomer.h">
+      <Filter>소스 파일\Simulation\1. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CNode.h">
+      <Filter>소스 파일\Simulation\1. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CQueue.h">
+      <Filter>소스 파일\Simulation\1. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>소스 파일\Simulation\1. Header</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
