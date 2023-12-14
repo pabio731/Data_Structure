@@ -15,7 +15,7 @@
 
 - Array List
 - Linked List
-- Linked List2 (이중 연결 링크드리스트)
+- Doubly Linked List
 
 ## Stack
 
@@ -27,7 +27,7 @@
 
 - Circular Queue
 - Queue with Linked List
-- Deque with doubly Linked List
+- Deque with Doubly Linked List
 - Bank Simulation
 
 ## Recursion
